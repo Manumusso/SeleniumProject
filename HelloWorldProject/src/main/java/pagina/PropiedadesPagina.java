@@ -6,7 +6,7 @@ import org.openqa.selenium.WindowType;
 
 public class PropiedadesPagina {
     public static void main(String[] args) throws Exception{
-
+        //Lab 3.4 Explorando propiedades de la página
         WebDriver driver = common.Configuration.createChromeDriver();
         //Ir a google
         driver.get(Configuration.ADMIN_URL);

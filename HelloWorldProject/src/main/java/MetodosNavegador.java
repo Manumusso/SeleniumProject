@@ -3,7 +3,7 @@ import org.openqa.selenium.WindowType;
 
 public class MetodosNavegador {
     public static void main(String[] args) throws Exception{
-
+        //Lab 3.3 Explorando métodos de navegador
         WebDriver driver = common.Configuration.createChromeDriver();
         //Ir a google
         driver.get("http://google.com");

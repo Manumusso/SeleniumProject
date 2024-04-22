@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Configuration {
-
+    //Lab 3.2 Implementando la clase configuración
     public static String DRIVER_DIR = System.getProperty("user.dir")
             + File.separator
             + "drivers"
